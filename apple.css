@@ -66,3 +66,18 @@
 .banner a:hover{
     text-decoration: underline;
 }
+.storesec{
+    background-color:#f4f5f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 40px;
+}
+.storeleft{
+    max-width: 60%;
+    font-size: 1.8rem;
+    line-height: 1.4;
+}
+.storeleft strong{
+    font-weight: bold;
+}
