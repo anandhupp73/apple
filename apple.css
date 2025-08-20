@@ -134,6 +134,8 @@
 .menuitem{
     text-align: center;
     font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
 }
 .menuitem img{
     width: 120px;
@@ -145,4 +147,29 @@
     display: flex;
     font-size: 25px;
     background-color: #f4f5f6;
+    padding-left: 90px;
+    padding-top: 50px;
+    font-style: normal;
+    font-weight: bold;
+}
+.subhead p{
+    color:#555 ;
+}
+.latestcards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(28px,1fr));
+    gap: 20px;
+    background-color:#f4f5f6 ;
+}
+.card{
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align:left;
+    transition: transform 0.3s;
+
+}
+.card:hover{
+    transform:translateY(-5px)
 }
