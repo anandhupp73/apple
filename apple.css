@@ -231,3 +231,8 @@
     color: black;
     font-size: 25px;
 }
+.help{
+    background-color: #f4f5f6;
+    display: flex;
+    gap: 10px;
+}
