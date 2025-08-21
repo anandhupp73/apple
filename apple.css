@@ -157,12 +157,15 @@
 }
 .latestcards{
     display: grid;
+    padding: 20px 90px 20px 90px;
     grid-template-columns: repeat(auto-fit,minmax(28px,1fr));
+    grid-template-rows: 500px;
     gap: 20px;
     background-color:#f4f5f6 ;
 }
 .card{
-    background: #fff;
+    /* background: #fff; */
+    position: relative;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -172,4 +175,59 @@
 }
 .card:hover{
     transform:translateY(-5px)
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.cardtext{
+    /* padding: 15px; */
+    top: 35px;
+    left: 30px;
+    right: 15px;
+    position: absolute;
+    color: #fff;
+}
+.cardtext h2{
+    font-size: 20px;
+    margin: 0 0 5px;
+    font-weight: bold;
+}
+.cardtext .ai{
+    font-size: 20px;
+    /* margin: 5px 0; */
+    color:#a3b4ff ;
+}
+.cardtext .price{
+   padding-top: 5px; 
+    font-size: 14px;
+    font-weight: bold;
+}
+.cardtext .offer{
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(139, 34, 60);
+
+}
+.cardtext .card2p{
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: justify;
+    padding-right: 20px;
+}
+.cardtext .card3h2 {
+    color: black;
+    font-size: 25px;
+}
+.cardtext .price3{
+    padding-top: 5px; 
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+.cardtext .card4h2 {
+    color: black;
+    font-size: 25px;
 }
