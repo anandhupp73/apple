@@ -158,7 +158,7 @@
 .latestcards{
     display: grid;
     padding: 20px 90px 20px 90px;
-    grid-template-columns: repeat(auto-fit,minmax(28px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
     grid-template-rows: 500px;
     gap: 20px;
     background-color:#f4f5f6 ;
@@ -235,4 +235,53 @@
     background-color: #f4f5f6;
     display: flex;
     gap: 10px;
+    padding-left: 90px;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bold;
+}
+ p{
+    color:#555 ;
+}
+.helpcards{
+    display: grid;
+    padding: 20px 90px 20px 90px;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    grid-template-rows: 500px;
+    gap: 20px;
+    background-color:#f4f5f6 ;
+}
+.hcard{
+    /* background: #fff; */
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align:left;
+    transition: transform 0.3s;
+
+}
+.hcard:hover{
+    transform:translateY(-5px)
+}
+.hcard img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.hcardtext{
+    /* padding: 15px; */
+    top: 35px;
+    left: 30px;
+    right: 15px;
+    position: absolute;
+    color: #000000;
+}
+.hcardtext h3{
+    font-size: 25px;
+    margin: 0 0 5px;
+    font-weight: bold;
+}
+.hcardtext p{
+    font-weight: bold;
 }
